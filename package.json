@@ -1,0 +1,15 @@
+{
+  "name": "static-resources",
+  "version": "1.0.0",
+  "description": "Static resources repository with automatic WebP conversion",
+  "main": "scripts/convert-to-webp.js",
+  "scripts": {
+    "convert": "node scripts/convert-to-webp.js"
+  },
+  "keywords": ["webp", "image-conversion"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
