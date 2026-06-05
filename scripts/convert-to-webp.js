@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
+let sharp;
+
 try {
-    const sharp = require('sharp');
+    sharp = require('sharp');
 } catch (error) {
     console.error('Error: sharp module not found. Please run: npm install');
     process.exit(1);
